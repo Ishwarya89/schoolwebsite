@@ -15,13 +15,13 @@ import youtube from '../Assets/youtube.png'
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-// Import Swiper styles
+
 import 'swiper/css';
 import 'swiper/css/scrollbar';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-// import required modules
+
 import { Keyboard, Scrollbar, Navigation, Pagination } from 'swiper/modules';
 
 <style>
