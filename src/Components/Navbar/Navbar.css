@@ -1,0 +1,769 @@
+.Navbar{
+    display: flex;
+ justify-content: space-between;
+ align-items: center;
+ font-size: 10px;
+ 
+ width: 100%;
+  background-color: white;
+}
+.Navbar1 p{
+  padding: 0px 20px;
+ font-size: 20px;
+ color: rgb(25, 17, 115);
+
+ 
+}
+.Navbar2{
+ display: flex;
+ justify-content: space-around;
+ padding-right:  20px;
+ color:rgb(70, 48, 169);
+ 
+}
+
+.Navbar2 a{
+ text-decoration: none;
+ font-size: 12px;
+ 
+
+}
+.Navbar2 li{
+ list-style-type: none;
+margin-left: 30px;
+
+   
+ font-family: 'Quicksand', sans-serif;
+ color: rgb(25, 17, 115);
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(25, 17, 115);;
+    padding: 0px 3px;
+    border-radius: 5px;
+  
+}
+.contact h3{
+    color: white;
+}
+.schoolimg{
+  
+   width: 100%;
+    height: 88vh;
+}
+.image-container {
+    position: relative;
+    
+  }
+  
+  .logo {
+    position: absolute;
+    
+    top: 10%; /* Adjust as needed */
+    left: 43%; /* Adjust as needed */
+    width: 200px; /* Adjust as needed */
+    height: 200px; /* Adjust as needed */
+  }
+  .quote{
+    position: absolute;
+   font-size: 50px;
+    font-family: 'Lora', serif;
+    top: 45%; /* Adjust as needed */
+    left: 30%;
+    color: white;
+  }
+  .action-button {
+    position: absolute;
+    bottom: 10%; /* Adjust as needed */
+    left: 40%; /* Adjust as needed */
+    padding: 10px;
+   background-color: transparent;
+width: 300px;
+height: 60px;
+    color: #fff;
+    border-color: #fff;
+   border-radius: 35px;
+    cursor: pointer;
+  }
+  .action-button{
+    font-size: 22px;
+  }
+  .arrow{
+    font-size: 14px;
+  }
+  .read {
+    border: none;
+    border-radius: 5px;
+   padding: 0px 15px;
+    background-color: rgb(12, 70, 140);
+  }
+  .read p{
+    margin-top: 12px;
+    font-size: 12px;
+  }
+  .HM{
+    
+    display: flex;
+    margin-top: 0;
+    background-color:black;
+   height: 93vh;
+    padding: 20px 80px 0px 80px;
+  }
+  .HM h1{
+
+    color: white;
+  }
+  .HM p{
+    color: white;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: 'Roboto Mono', monospace;
+  }
+  .HMNote{
+    width: 50%;
+  }
+   .HMPhoto{
+    width: 50%;
+  }
+  .HMPhoto img{
+    margin-left: 100px;
+    margin-top: 2px;
+    width: 80%;
+    height: 100%;
+  }
+  .about{
+   background-image: url('../Assets/bgimg.jpeg');
+   
+ 
+    display: flex;
+    padding: 80px 80px 30px 80px;
+  }
+  .aboutpara{
+    width: 50%;
+ 
+  }
+  .aboutpara h1{
+    color: rgb(25, 17, 115);
+  }
+  .aboutpara p{
+    color: rgb(82, 121, 218);
+    
+  }
+  .readabout{
+    padding: 0px 15px;
+    border: none;
+    border-radius: 5px;
+    
+    background-color: rgb(12, 70, 140);
+  }
+  .readabout p{
+    margin-top: 12px;
+    font-size: 18px;
+    color: white;
+  }
+  .aboutgraph{
+    width: 50%;
+   
+  }
+  .aboutgraph img{
+    margin-left: 10px;
+    
+    width: 108%;
+    height: 100%;
+  }
+  .whyscism{
+    margin: 0;
+   
+    background-color:rgb(12, 70, 140);
+  }
+  .whyscism p{
+    margin: 0;
+    padding: 20px 0px 0px 80px;
+    color: white;
+   font-size: 30px;
+  }
+  .youtube{
+  padding: 0;
+    width: 400px;
+    height: 300px;
+   
+  }
+  .videopage{
+    display: flex;
+    padding-left: 40px;
+   
+  }
+  .ourschools{
+    background-color: white;
+    
+  }
+ .ourschools h2{
+  margin: 0;
+  padding: 20px 0px 0px 80px;
+ }
+ .wholecard{
+  display: flex;
+  width: 100vw;
+  padding: 20px 0px 60px 60px;
+ }
+ .card{
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+  margin: 20px;
+  padding: 0px 0px 20px 0px;
+  width: 300px;
+  height: 280px;
+  font-size: 18px;
+  font-weight: bolder;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  color: rgb(12, 70, 140);
+ }
+ .card img{
+  width: 100%;
+  height: 60%;
+  border-radius: 10px;
+ }
+ .card h2{
+  color: rgb(12, 70, 140);
+ }
+ .card button{
+ padding: 2px 12px;
+  background-color: rgb(250, 130, 18);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+ }
+ .applicationenrollment{
+  display: flex;
+  width: 100%;
+  height: 85vh;
+  background-color:rgb(12, 70, 140);
+ }
+ .application{
+  width: 30%;
+  font-size: 16px;
+  font-family: 'Monoton', sans-serif;
+  padding: 20px 0px 0px 80px;
+ }
+.application h1{
+  font-family: 'Londrina Outline', sans-serif;
+}
+ .enrollment{
+  width: 70%;
+  height: 70%;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+ }
+ .enrollment input{
+  width: 550px;
+  height: 60px;
+  border: 1.5px solid rgb(250, 130, 18);
+  border-radius: 5px;
+  background-color: rgb(12, 70, 140);
+ }
+
+ .enrollment .inputbutton{
+  width: 200px;
+ }
+ .newscard{
+  margin: 6px;
+  padding: 0px 0px 0px 0px;
+  width: 220px;
+  height: 280px;
+  
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+  
+  color: rgb(12, 70, 140);
+ }
+ .newspage{
+  display: flex;
+  width: 100vw;
+  padding: 50px 0px 50px 70px;
+ 
+}
+.aluminipage{
+  display: flex;
+  width: 100vw;
+  padding: 50px 0px 50px 50px;
+}
+.aluminicard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 6px;
+  padding: 0px 0px 0px 0px;
+  width: 230px;
+  height: 280px;
+   color: rgb(12, 70, 140);
+ }
+ .aluminicard img{
+  width: 180px;
+ }
+ .alumini{
+  margin: 0;
+   
+  background-color:rgb(12, 70, 140);
+ }
+ .alumini h1{
+  margin: 0;
+  padding: 80px 0px 0px 80px;
+  color: white;
+ }
+ .aluminicard p{
+  color: white;
+  font-size: 14px;
+  margin: 0;
+ }
+ .aluminicard h3{
+  color: white;
+  font-size: 22px;
+  margin: 0;
+ }
+ @media (max-width: 1200px) {
+  .Homepage{
+    width: 100vw;
+   overflow: hidden;
+  }
+  .HM p{
+    line-height: 20px;
+  }
+  .Navbar2 li{
+ 
+    margin-left: 5px;
+    }
+    .schoolimg{
+      width: 100%;
+      height: 70vh;
+      object-fit: cover;
+    }
+    .logo{
+      width: 180px;
+      height: 120px;
+      top: 15%;
+      left: 40%;
+    }
+    .quote{
+      top: 40%;
+      left: 37%;
+      font-size: 24px;
+    }
+    .action-button{
+      display: flex;
+      align-items: center;
+      bottom: 30%;
+      left: 42%;
+      width:150px;
+      height: 40px;
+      font-size: 16px;
+    }
+    .arrow{
+      font-size: 12px;
+    }
+    .about{
+      height: 60vh;
+    }
+    .whyscism{
+      height: 70vh;
+    }
+    .ourschools{
+      height: 70vh;
+    }
+    .applicationenrollment{
+      height: 75vh;
+     }
+    
+    .application h1{
+      
+      font-size: 35px;
+      
+    }
+     .enrollment{
+     
+      margin-top: 50px;
+     
+     }
+     .enrollment input{
+      width: 300px;
+      height: 55px;
+     
+     }
+    
+     .enrollment .inputbutton{
+      width: 150px;
+     }
+ }
+ @media (max-width: 1000px) {
+  .Homepage{
+    width: 100vw;
+   overflow: hidden;
+  }
+  .HM p{
+    line-height: 17px;
+  }
+  .Navbar2 li{
+ 
+    margin-left: 5px;
+    }
+    .schoolimg{
+      width: 100%;
+      height: 70vh;
+      object-fit: cover;
+    }
+    .logo{
+      width: 150px;
+      height: 90px;
+      top: 15%;
+      left: 40%;
+    }
+    .quote{
+      top: 40%;
+      left: 35%;
+      font-size: 22px;
+    }
+    .action-button{
+      display: flex;
+      align-items: center;
+      bottom: 20%;
+      left: 42%;
+      width:150px;
+      height: 40px;
+      font-size: 14px;
+    }
+    .arrow{
+      font-size: 12px;
+    }
+    
+    .applicationenrollment{
+      height: 85vh;
+     }
+     .application{
+
+     width: 60%;
+      padding: 30px 0px 0px 80px;
+     }
+    .application h1{
+      
+      font-size: 26px;
+      
+    }
+     .enrollment{
+     
+      margin-top: 50px;
+     
+     }
+     .enrollment input{
+      width: 250px;
+      height: 50px;
+     
+     }
+    
+     .enrollment .inputbutton{
+      width: 130px;
+     }
+ }
+ @media (max-width: 800px) {
+  .Homepage{
+    width: 100vw;
+   overflow: hidden;
+  }
+  .HM p{
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .Navbar2 li{
+ 
+    margin-left: 5px;
+    }
+    .schoolimg{
+      width: 100%;
+      height: 70vh;
+      object-fit: cover;
+    }
+    .logo{
+      width: 150px;
+      height: 90px;
+      top: 15%;
+      left: 40%;
+    }
+    .quote{
+      top: 40%;
+      left: 35%;
+      font-size: 22px;
+    }
+    .action-button{
+      display: flex;
+      align-items: center;
+      bottom: 20%;
+      left: 42%;
+      width:150px;
+      height: 40px;
+      font-size: 14px;
+    }
+    .arrow{
+      font-size: 12px;
+    }
+    
+    .applicationenrollment{
+      height: 85vh;
+     }
+     .application{
+
+     width: 60%;
+      padding: 30px 0px 0px 80px;
+     }
+    .application h1{
+      
+      font-size: 26px;
+      
+    }
+    .whyscism{
+      height: 80vh;
+    }
+    .ourschools{
+      height: 90vh;
+    }
+     .enrollment{
+     
+      margin-top: 50px;
+     
+     }
+     .enrollment input{
+      width: 250px;
+      height: 50px;
+     
+     }
+    
+     .enrollment .inputbutton{
+      width: 130px;
+     }
+ }
+ @media (max-width: 500px) {
+  .Homepage{
+    width: 100vw;
+   overflow: hidden;
+  }
+  .Navbar2{
+    width: 50%;
+    font-size: 6px;
+    padding-right: 0;
+  }
+  .Navbar1{
+    width: 50%;
+  }
+ .Navbar1 p{
+  font-size: 8px;
+padding: 2px ;
+ }
+ .Navbar2 li{
+ 
+ margin-left: 0px;
+ }
+ .Navbar2 ul{
+ padding-left: 0;
+ }
+.schoolimg{
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+}
+.logo{
+  width: 100px;
+  height: 70px;
+  top: 15%;
+  left: 35%;
+}
+.quote{
+  top: 40%;
+  left: 25%;
+  font-size: 18px;
+}
+.action-button{
+  display: flex;
+  align-items: center;
+  bottom: 20%;
+  left: 35%;
+  width:110px;
+  height: 30px;
+  font-size: 10px;
+}
+.arrow{
+  font-size: 10px;
+}
+.HM{
+  height: 50vh;
+  padding: 0px 0px 0px 12px;
+}
+.HM h1{
+  font-size: 16px;
+  width: 60vw;
+}
+.HMNote{
+  width: 20vw;
+}
+.HM p{
+  width: 50vw;
+  font-size: 8px;
+  line-height:8px;
+}
+
+.HMPhoto img{
+  margin-left: 130px;
+ 
+}
+.read {
+ padding: 0px 2px; 
+ width: 100px;
+
+ display: flex;
+ align-items: center;
+}
+.read p{
+ margin-top: 5px;
+  font-size: 10px;
+}
+.about{
+  height: 45vh;
+  padding: 0px 0px 0px 12px;
+}
+.aboutpara h1{
+  font-size: 16px;
+}
+.aboutpara p{
+  font-size: 10px;
+}
+.readabout{
+
+ display: flex;
+ align-items: center;
+}
+.readabout p{
+  margin-top: 5px;
+  font-size: 10px;
+}
+.aboutgraph{
+  width: 50%;
+ 
+}
+.aboutgraph img{
+  margin-top: 20px;
+  width: 90%;
+  height: 80%;
+}
+.whyscism{
+ height: 40vh;
+}
+.whyscism p{
+ 
+  padding: 0px 0px 0px 15px;
+   font-size: 16px;
+}
+.youtube{
+ margin-top: 15px;
+  width: 150px;
+  height: 130px;
+ 
+}
+.videopage{
+  padding-left: 10px;
+}
+.ourschools{
+ height: 50vh;  
+}
+.ourschools h2{
+font-size: 16px;
+padding: 0px 0px 0px 15px;
+}
+.wholecard{
+display: flex;
+width: 100vw;
+padding: 0px 0px 0px 10px;
+}
+.card{
+margin: 25px 5px;
+padding: 0px 0px 20px 0px;
+width: 180px;
+height: 150px;
+font-size: 10px;
+font-weight: bold;
+
+}
+
+.card button{
+border-radius: 3px;
+font-size: 10px;
+}
+.applicationenrollment{
+  height: 40vh;
+ }
+ .application{
+ width: 50%;
+  padding: 10px 0px 0px 25px;
+ }
+.application h1{
+  
+  font-size: 16px;
+  font-family: 'Londrina Outline', sans-serif;
+}
+ .enrollment{
+ 
+  margin-top: 60px;
+ 
+ }
+ .enrollment input{
+  width: 160px;
+  height: 40px;
+ 
+ }
+
+ .enrollment .inputbutton{
+  width: 100px;
+ }
+ .newscard{
+ 
+  padding: 0px 0px 0px 0px;
+  width: 100px;
+  height: 120px;
+ }
+ .newspage{
+  
+  padding: 20px 0px 20px 10px;
+ 
+}
+.aluminipage{
+ height: 40vh;
+  padding: 0px 0px 0px 15px;
+}
+.aluminicard{
+
+  margin: 0px;
+  padding: 25px 5px 0px 0px;
+  
+ }
+ .aluminicard img{
+  width: 100px;
+ }
+
+ .alumini h1{
+ font-size: 16px;
+  padding: 0px 0px 0px 15px;
+  
+ }
+ .aluminicard p{
+  
+  font-size: 10px;
+  
+ }
+ .aluminicard h3{
+ 
+  font-size: 12px;
+  
+ }
+ }
