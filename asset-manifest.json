@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/schoolwebsite/static/css/main.cf7212d1.css",
-    "main.js": "/schoolwebsite/static/js/main.17183707.js",
+    "main.css": "/schoolwebsite/static/css/main.44f7e228.css",
+    "main.js": "/schoolwebsite/static/js/main.3dc487b0.js",
     "static/js/787.caaea2da.chunk.js": "/schoolwebsite/static/js/787.caaea2da.chunk.js",
     "static/media/youtube.png": "/schoolwebsite/static/media/youtube.6cf8c766aaac18da7767.png",
     "static/media/logo.png": "/schoolwebsite/static/media/logo.07d9f560382331ed53c2.png",
+    "static/media/Loader1.gif": "/schoolwebsite/static/media/Loader1.dcee7bbe18070e73d29a.gif",
     "static/media/graph.png": "/schoolwebsite/static/media/graph.ba082a2a7c638bb5175f.png",
     "static/media/bgimg.jpeg": "/schoolwebsite/static/media/bgimg.50d763f39a965b1fa112.jpeg",
     "static/media/men.png": "/schoolwebsite/static/media/men.e50ecd8de7cea2eafb18.png",
@@ -12,12 +13,12 @@
     "static/media/School.webp": "/schoolwebsite/static/media/School.3ba56102636f0a1a2c24.webp",
     "static/media/kids.png": "/schoolwebsite/static/media/kids.925e7cabfd4827097a72.png",
     "index.html": "/schoolwebsite/index.html",
-    "main.cf7212d1.css.map": "/schoolwebsite/static/css/main.cf7212d1.css.map",
-    "main.17183707.js.map": "/schoolwebsite/static/js/main.17183707.js.map",
+    "main.44f7e228.css.map": "/schoolwebsite/static/css/main.44f7e228.css.map",
+    "main.3dc487b0.js.map": "/schoolwebsite/static/js/main.3dc487b0.js.map",
     "787.caaea2da.chunk.js.map": "/schoolwebsite/static/js/787.caaea2da.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf7212d1.css",
-    "static/js/main.17183707.js"
+    "static/css/main.44f7e228.css",
+    "static/js/main.3dc487b0.js"
   ]
 }
