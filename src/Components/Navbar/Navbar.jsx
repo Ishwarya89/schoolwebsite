@@ -1,12 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 
 import Paginations from '../Pagination/Pagination';
 import Paginationa from '../Pagination/Paginationa';
-import ImageLoader from '../ImageLoader/ImageLoader';
+
 import './Navbar.css'
 import School from '../Assets/School.webp'
 import logo from '../Assets/logo.png'
 import men from '../Assets/men.png'
+import Loader from '../Assets/Loader1.gif'
 import graph from '../Assets/graph.png'
 import circle from '../Assets/circle.png'
 import kids from '../Assets/kids.png'
@@ -23,6 +24,8 @@ import 'swiper/css/pagination';
 
 
 import { Keyboard, Scrollbar, Navigation, Pagination } from 'swiper/modules';
+
+
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
@@ -51,6 +54,45 @@ const Navbar = () => {
   const handlePageChanges1 = (newPage) => {
     setCurrentPage2(newPage);
   };
+  const [showLogo, setShowLogo] = useState(false);
+  const [showSentence, setShowSentence] = useState(false);
+ 
+  const [showOriginalImage, setShowOriginalImage] = useState(false);
+
+  useEffect(() => {
+    
+    const loadingTimeout = setTimeout(() => {
+      
+      setShowLogo(true);
+
+      const logoTimeout = setTimeout(() => {
+       
+        setShowSentence(true);
+      
+
+        const textTimeout = setTimeout(() => {
+          
+          setShowOriginalImage(true);
+        }, 1000);
+
+       
+        return () => {
+          clearTimeout(textTimeout);
+        };
+      }, 1000);
+
+      
+      return () => {
+        clearTimeout(logoTimeout);
+      };
+    }, 1000);
+     
+
+    // Clear timeouts on component unmount
+    return () => {
+      clearTimeout(loadingTimeout);
+    };
+  }, []);
   return (
     <div className='Homepage'>
     <div className='Navbar'>
@@ -72,16 +114,30 @@ const Navbar = () => {
    
     </div>
     <div className="image-container">
-    <ImageLoader
-        blurredSrc={kids}
-        
-        alt="Your Alt Text"
-      />
-    <img className='schoolimg' src={School} alt='school'/>
-    <img src={logo} alt='schoologo' className="logo" />
+    <div>
+      {showOriginalImage ? (
+       <><img className='schoolimg' src={School} alt='school' /><img src={logo} alt='schoologo' className="logo" />
+       <h1 className='quote'> Building a Better World <br />One Student at a Time.</h1>
+<button className="action-button">Virtual tour of Scism <AiOutlineRight className='arrow'/></button></>
+      ) : (
+        <div>
+          <div style={{ position: 'relative' }}>
+            <img className='load' src={Loader} alt="Loading Spinner" style={{ display: 'block', margin: 'auto' }} />
+            {showLogo && (
+              <div style={{ position: 'absolute', top: '30%', left: '50%', transform: 'translate(-50%, -50%)' }}>
+                <img src={logo} alt="Logo" />
+               
+              </div>
+            )}
+              {showSentence &&  <h1 className='quote'> Building a Better World <br />One Student at a Time.</h1> }
+              
+          </div>
+        </div>
+      )}
+    </div>
+    
 
-<h1 className='quote'> Building a Better World <br />One Student at a Time.</h1>
-<button className="action-button">Virtual tour of Scism <AiOutlineRight className='arrow'/></button>
+
     </div>
     <div className='HM'>
 <div className='HMNote'>
@@ -217,7 +273,7 @@ const Navbar = () => {
           <input className='inputbutton' type="text" />
          </div>
         </div>
-        <div className='ourschools'>
+        <div className='ourschools1'>
             <h2>NEWS and <br />Events</h2>
            
             <Swiper
